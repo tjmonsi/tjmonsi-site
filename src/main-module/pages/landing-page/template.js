@@ -7,5 +7,8 @@ export default (ins) => html`
   </style>
   Hello World
 
-  <button class="button">Hello</button>
+  <div class="button">
+    <ripple-effect></ripple-effect>
+    Hello
+  </div>
 `;
