@@ -1,0 +1,79 @@
+{
+  "name": "tjmonsi-site",
+  "version": "0.0.1",
+  "description": "TJ Monserrat's website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "cd builder && ./node_modules/.bin/gulp && ./node_modules/.bin/webpack --env=dev --watch",
+    "production": "cd builder && ./node_modules/.bin/gulp && ./node_modules/.bin/webpack --env=prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjmonsi/tjmonsi-site.git"
+  },
+  "author": "TJ Monserrat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjmonsi/tjmonsi-site/issues"
+  },
+  "homepage": "https://github.com/tjmonsi/tjmonsi-site#readme",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0-pre.1",
+    "@webcomponents/shadycss": "^1.0.6",
+    "@webcomponents/webcomponentsjs": "^1.0.14",
+    "es5-shim": "^4.5.9",
+    "es6-promise": "^4.1.1",
+    "es6-shim": "^0.35.3",
+    "intersection-observer": "^0.4.2",
+    "lit-html": "^0.6.0",
+    "path-to-regexp": "^2.0.0",
+    "polymer-redux": "^1.0.3",
+    "redux": "^3.7.2"
+  },
+  "resolutions": {
+    "doctrine": "2.0.0",
+    "strip-ansi": "4.0.0",
+    "ansi-regex": "3.0.0",
+    "acorn": "5.1.2",
+    "string-width": "2.1.1",
+    "is-fullwidth-code-point": "2.0.0",
+    "minimist": "1.2.0",
+    "find-up": "2.1.0",
+    "path-exists": "3.0.0",
+    "babel-code-frame": "7.0.0-beta.0",
+    "chalk": "2.1.0",
+    "debug": "3.1.0",
+    "globals": "10.1.0",
+    "ansi-styles": "3.2.0",
+    "supports-color": "4.4.0",
+    "eslint": "4.8.0",
+    "ajv": "5.2.3",
+    "inquirer": "3.3.0",
+    "pluralize": "7.0.0",
+    "progress": "2.0.0",
+    "semver": "5.4.1",
+    "table": "4.0.2",
+    "ansi-escapes": "3.0.0",
+    "cli-cursor": "2.1.0",
+    "figures": "2.0.0",
+    "mute-stream": "0.0.7",
+    "run-async": "2.3.0",
+    "rx-lite": "4.0.8",
+    "restore-cursor": "2.0.0",
+    "onetime": "2.0.1",
+    "ajv-keywords": "2.1.0",
+    "slice-ansi": "1.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.8.0",
+    "eslint-config-semistandard": "^11.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "semistandard": "^11.0.0"
+  },
+  "semistandard": {
+    "parser": "babel-eslint"
+  }
+}
