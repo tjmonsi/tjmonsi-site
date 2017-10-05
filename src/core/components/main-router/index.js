@@ -6,6 +6,7 @@ import pathToRegexp from 'path-to-regexp';
 import fragments from '../../fragments';
 import auth from '../../../authentication';
 import template from './template';
+import '../state-manager';
 
 class MainRouter extends QueryParamsMixin(LocationMixin(ElementMixin(window.HTMLElement))) {
   static get is () { return 'main-router'; }

@@ -27,7 +27,9 @@
     "es6-shim": "^0.35.3",
     "intersection-observer": "^0.4.2",
     "lit-html": "^0.6.0",
-    "path-to-regexp": "^2.0.0"
+    "path-to-regexp": "^2.0.0",
+    "polymer-redux": "^1.0.3",
+    "redux": "^3.7.2"
   },
   "resolutions": {
     "doctrine": "2.0.0",
