@@ -6,4 +6,6 @@ export default (ins) => html`
     ${style}
   </style>
   Hello World
+
+  <button class="button">Hello</button>
 `;
