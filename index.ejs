@@ -1,0 +1,22 @@
+<%
+ const config = htmlWebpackPlugin.options.getConfig(htmlWebpackPlugin.options.env).config
+ const theme = htmlWebpackPlugin.options.getConfig(htmlWebpackPlugin.options.env).theme
+ const head = require('./src/core/partials/head.ejs')({config, theme})
+ const router = require('./src/core/partials/router.ejs')({config})
+ const scripts = require('./src/core/partials/scripts.ejs')()
+%>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Load Head Essentials here -->
+    <%= head %>
+  </head>
+  <body>
+    <!-- Router here -->
+    <%= router %>
+
+    <!-- Load Scripts here -->
+    <%= scripts %>
+  </body>
+</html>

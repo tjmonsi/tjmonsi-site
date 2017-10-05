@@ -1,0 +1,19 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": "auth != null",
+    "test": {
+      ".indexOn": [
+        "val"
+      ]
+    },
+    "testGroup": {
+      "data": {
+        ".indexOn": [
+          "value",
+          ".value"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+<main-router>
+<% for (var i in config.routing) { var node = config.routing[i].name || config.routing[i] %>
+  <<%= node %> route="<%= i %>" <% if (config.routing[i].auth) { %> auth="<%= config.routing[i].auth %>" <% } %>></<%= node %>>
+<% } %>
+<% for (var i in config.httpCodes) { var node = config.httpCodes[i].name || config.httpCodes[i] %>
+  <<%= node %> route="<%= i %>"></<%= node %>>
+<% } %>
+</main-router>
